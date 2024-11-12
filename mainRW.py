@@ -13,7 +13,7 @@ probs = 1/directions * np.ones((directions,))
 probs = probs / np.sum(probs)
 randomWalk = rw.RandomWalk(directions, probs)
 # walk = randomWalk.walk(steps)
-sims = 1000
+sims = 100000
 t1 = 0
 t2 = 0
 for i in range(sims):
